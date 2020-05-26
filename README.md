@@ -1,4 +1,5 @@
 <p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/16005567/82953423-9ba1c080-9f5f-11ea-86c4-691a46b3176e.png">
   <h3 align="center">book-box</h3>
   <p align="center">📚Update a pinned gist to contain your latest reads on Goodreads</p>
 </p>
