@@ -25,6 +25,7 @@
   - **GIST_ID:** The ID of the gist you created above (`https://gist.github.com/amorriscode/`**`3f84910b524db4819ec2dc1063f632ab`**).
   - **GH_TOKEN:** The GitHub token generated above.
   - **GOODREADS_KEY:** The API key for your Goodreads account.
+  - **GOODREADS_USER_ID:** The user ID for your Goodreads account (`https://www.goodreads.com/user/show/`**`5171404`**`-anthony`).
 
 ## Inspiration
 
