@@ -11,5 +11,5 @@ jobs:
         uses: amorriscode/book-box@master
         env:
           GIST_ID: ${{ secrets.GIST_ID }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}

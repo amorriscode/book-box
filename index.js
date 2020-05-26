@@ -8,7 +8,7 @@ const get = require('lodash.get');
 
 const {
   GIST_ID: gistId,
-  GITHUB_TOKEN: githubToken,
+  GH_TOKEN: githubToken,
   GOODREADS_KEY: goodreadsKey,
   GOODREADS_USER_ID: goodreadsUserId,
 } = process.env;

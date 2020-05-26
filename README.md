@@ -23,7 +23,7 @@
 2. Go to the repo **Settings > Secrets**
 3. Add the following environment variables:
   - **GIST_ID:** The ID of the gist you created above (`https://gist.github.com/amorriscode/`**`3f84910b524db4819ec2dc1063f632ab`**).
-  - **GITHUB_TOKEN:** The GitHub token generated above.
+  - **GH_TOKEN:** The GitHub token generated above.
   - **GOODREADS_KEY:** The API key for your Goodreads account.
 
 ## Inspiration
