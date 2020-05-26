@@ -1,0 +1,15 @@
+on:
+  schedules:
+    - cron: '*/10 * * * *'
+name: Update gist with latest reads
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: update-gist
+        uses: amorriscode/book-box@master
+        env:
+          GIST_ID: ${{ secrets.GIST_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
