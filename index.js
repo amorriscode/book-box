@@ -1,7 +1,6 @@
 require("dotenv").config();
 const { Octokit } = require("@octokit/rest");
 const wordwrap = require("wordwrap");
-const { formatDistanceStrict } = require("date-fns");
 const got = require('got');
 const { parseStringPromise } = require('xml2js');
 const get = require('lodash.get');
