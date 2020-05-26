@@ -67,6 +67,12 @@ async function updateGist(readingStatus) {
   // Get original filename to update that same file
   const filename = Object.keys(gist.data.files)[0];
 
+  // Only update if the content has changed
+  if (gist.data.files[filename].content === readingStatus.join('\n')) {
+    console.log(`Reading status hasn't changed; skipping update.`);
+    return;
+  }
+
   try {
     await octokit.gists.update({
       gist_id: gistId,
