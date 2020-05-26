@@ -1,5 +1,5 @@
 on:
-  schedules:
+  schedule:
     - cron: '*/10 * * * *'
 name: Update gist with latest reads
 jobs:
