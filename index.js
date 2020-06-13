@@ -38,8 +38,8 @@ async function main() {
 
     // Create data for currently reading; remove subtitle if it exists
     const currentlyReading = currentlyReadingTitle && currentlyReadingAuthor
-      ? `Currently reading: ${currentlyReadingTitle.split(':'[0])} by ${currentlyReadingAuthor}`
-      : `I'm not reading anything at the moment.`
+      ? `Currently reading: ${currentlyReadingTitle.split(':'[0])} by ${currentlyReadingAuthor}\n`
+      : `I'm not reading anything at the moment.\n`
 
     // Create data for recently read; remove subtitle if it exists
     const recentlyRead = recentlyReadTitle && recentlyReadAuthor
@@ -47,7 +47,7 @@ async function main() {
       : `I haven't read anything recently.`
 
     // Update your gist
-    await updateGist([wrap(currentlyReading), wrap('-'.repeat(58)), wrap(recentlyRead)]);
+    await updateGist([wrap(currentlyReading), wrap(recentlyRead)]);
   } catch (error) {
     console.error(`Unable to fetch Goodreads books\n${error}`)
   }
