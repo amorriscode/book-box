@@ -9,7 +9,7 @@
   "dependencies": {
     "@octokit/rest": "^17.9.2",
     "dotenv": "^8.2.0",
-    "got": "^11.1.4",
+    "got": "^11.8.5",
     "lodash.get": "^4.4.2",
     "wordwrap": "^1.0.0",
     "xml2js": "^0.4.23"
